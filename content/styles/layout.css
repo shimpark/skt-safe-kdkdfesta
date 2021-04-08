@@ -1018,6 +1018,9 @@ color palatte
 .lightgrey {
     background-color: #eeeef1 !important;
 }
+.white { /* 0408 zoe 추가 */
+    background-color: #fff !important;
+}
 
 /*============================================================
 show and hide

@@ -10,6 +10,7 @@ common elements
     position: relative;
     margin: 0 auto  ;
     max-width: 720px;
+    background-color: #eeeef1; /* 0408 zoe 추가 */
 }
 /* font style
 ============================================================*/
@@ -275,6 +276,9 @@ floating CTA box
 @media screen and (max-width: 575.98px) {
     .float-cta-box {
        padding: 2rem 0;
+    }
+    [class^="float-cta-btn"] .label.fs30 { /* 0408 zoe 추가 */
+        font-size: 1.6rem;
     }
     .float-share-btn {
         margin-left: 0.75rem;
