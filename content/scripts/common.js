@@ -1,5 +1,6 @@
 $(document).ready(function(){
     slider();
+    moModalForm(); //0412 zoe 추가
     modal();
 
     //floating apply btn
@@ -57,6 +58,21 @@ function slider() {
         dots: true,
         arrows: false
     });
+}
+
+//modal form focus (0412 zoe 추가)
+function moModalForm() {
+    if(mqMobile.matches) {
+        $(".modal-area").each(function(){
+            var modalRow = $(this).find(".form-row");
+
+            modalRow.on("click", function(){
+                $(".modal-area").animate({
+                    scrollTop: 0
+                }, 350);
+            });
+        });
+    }
 }
 
 //common modal
