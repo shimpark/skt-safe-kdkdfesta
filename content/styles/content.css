@@ -143,7 +143,11 @@ common elements
     border-bottom: 1px solid #333;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 575.98px) {
+=======
+@media screen and (max-width: 575.98px) { /* 0412 2차 zoe 추가 */
+>>>>>>> fd88ac6c0433f69b1dd41e23399a24d0955513ba
     .form-input-txt {
         height: 3.5rem;
     }
